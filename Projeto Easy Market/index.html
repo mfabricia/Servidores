@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Glaucy e Mainara Fabricia">
+    <link rel="stylesheet" href="easyMarket.css">
+    <script src="easyMarket.js" type="text/javascript"></script>
+    <script src="bancoDados.js" type="text/javascript"></script>
+	<title>Tela de apresentação</title>
+</head>
+<body id="body_apresentation">
+    <center>
+        <div id="main">
+            <div id="top_site" class="width_pattern">
+                <div class="width_pattern" id="enter_in_top">
+                    <img src="logos/logo1.png">
+                </div>
+                
+                <button class="login_button shadow_button" onclick="back_login()">Login</button>
+                
+            </div>
+
+            <div class="width_pattern" id="best_products">
+               
+                <h1 id="title_offers">Ofertas do dia</h1>
+                <div class="best_buy shadow_button color2 display_ib">
+                    <img src="produtos/cupcake.png" alt="cupcake" style="width: 128px">
+                    <label class="title_description_images_site">Cupcake</label>
+                    <label class="description_images_site display_b">R$ 8,99</label>
+                </div>                    
+                <div class="best_buy shadow_button color2 display_ib" >
+                    <img src="produtos/pao.png" alt="pao">
+                    <label class="title_description_images_site">Pão francês</label>
+                    <label class="description_images_site display_b">R$ 7,99</label>
+                </div>
+                <div class="best_buy shadow_button color2 display_ib" >
+                    <img src="produtos/pao_doce.png" alt="pao_doce" style="width: 198px;">
+                    <label class="title_description_images_site">Pão doce</label>
+                    <label class="description_images_site display_b">R$ 11,79</label>
+                </div>
+                
+            </div>
+
+            <div class="bakery_inf width_pattern">
+                <div>
+                    <img src="fotos_da_padaria/foto1.jpg" class="fotos_bakery width_pattern">
+                </div>
+                <h1>Sobre a padaria</h1>
+                <p class="color2">A padaria KiPão é um negócio que vem sendo passado de geração para geração. Criada por José Félix, a padaria passou para seu filho Agripino, para seu neto Macêdo e então para seu atual dono João.
+                    Nossa padaria é conhecida principalmente por fabricarmos os melhores pães e bolos da cidade, porém trabalhamos também com outros produtos, entre eles biscoitos, macarrão, arroz</p>
+            </div>
+            <div class="bakery_inf width_pattern" style="border: 1px solid #CF885A; background-color: #CF885A;">
+                <div style="float: left;">
+                    <img src="fotos_da_padaria/foto2.jpg" class="fotos_bakery width_pattern">
+                </div>
+                <h1>Para empresas</h1>
+                <p class="color2">A melhor opção para realizar seu evento</p> 
+                <p class="color2">um evento para 10 ou 1000 pessoas, conte com nosso serviço completo. São mais de 300 produtos, todos produzidos com ingredientes de verdade, o que garante a nossa qualidade e excelência.</p>
+            </div>
+            <div class="bakery_inf width_pattern">
+                <div>
+                    <img src="fotos_da_padaria/foto3.jpg" class="fotos_bakery width_pattern">
+                </div>
+                <h1>Produtos</h1>
+                <p class="color2">Começar o dia com um delicioso café da manhã, almoçar com os amigos e a família, ter um lanche da tarde com os pequenos ou aquele jantar com a pessoa especial, são #MomentosDeliciosos como estes que adoramos compartilhar com você!</p>
+            </div>
+
+            <div id="map_site" class="color2 width_pattern display_ib">
+                <h1>Localização</h1>
+                <div id="map_content">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1613.1020761107493!2d-37.081853442136115!3d-6.476047533732604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7afecfdb20e72fb%3A0x4707eaa21dc59360!2sR.%20Juc%C3%A1%20Melo%2C%2017%20-%20Caico%2C%20Caic%C3%B3%20-%20RN%2C%2059300-000!5e1!3m2!1spt-BR!2sbr!4v1647869661622!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div id="bottom_site" class="width_pattern">
+                <h1>Fale conosco</h1>
+                <div id="cont">
+                    <h4 class="display_ib"><a href="#" style="text-decoration: none;"onclick="window.open('http://api.whatsapp.com/send?1=pt_BR&phone=5584981604433', '_system','location=yes'); return false;">Contato: (84) 98160-4433</a></h4>
+                    <h4 class="display_ib"><a href="#" style="text-decoration: none;"onclick="window.open('http://api.whatsapp.com/send?1=pt_BR&phone=558499452249', '_system','location=yes'); return false;">Contato: (84) 99945-2249</a></h4>
+                </div>
+                <h4 class="display_ib">Rua Antonio Gorchel de Alvares N°18</h4>
+                <h4 class="display_b">CNPJ: 58.796.870/0001-07</h4>
+            </div>
+
+        </div>
+</center>
+</body>
+</html>

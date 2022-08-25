@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Glaucy e Mainara Fabricia">
+    <link rel="stylesheet" href="easyMarket.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="easyMarket.js" type="text/javascript"></script>
+    <script src="bancoDados.js" type="text/javascript"></script>
+	<title>Carrinho</title>
+</head>
+<body>
+    <div id="all_cart" class="color_divs position_center display_ib">
+        <button class="back_button shadow_button border1" onclick="back_to_redirect()"><i class="fa fa-arrow-left" aria-hidden="true" style="display:inline-block;"></i></button>
+        
+        <center>
+        <h1 class="Page_title display_ib">Carrinho</h1>
+        </center>
+        
+        <center>
+            <div id="top">
+                    <div class="top_info">
+                            <label for="code">Código do Produto: </label><input type="text" id="code" class="display_ib"></input>
+                            <label for="amount">Quantidade:</label><input type="text" id="amount" class="display_ib"></input>
+                    </div>               
+                <button onCLick="buy_product()" class="shadow_button color2 border1" id="buy"  >adicionar</button>
+            </div>
+        </center>
+        
+        <center>
+             <div id="invoice">
+               
+                <table id="table_cart" class="border1 width_pattern" border="1">
+                    <tr>
+                        <th>id:</th>
+                        <th>Produto:</th>
+                        <th>Qt:</th>
+                        <th>Preço:</th>
+                        <th>Preço total: </th>
+                        <th>Apagar</th>
+                    </tr>            
+                </table>
+            
+            </div>
+        
+        </center>
+        
+        <center>          
+            <div id="bott">
+                <h1 id="final_value">Preço final: <span style="color: red;">00 R$ </span></h1>
+                <button class="shadow_button border1 color2" onclick="finish()" id="buy">Finalizar venda</button>          
+            </div>       
+        </center>
+        
+    </div>
+</body>
+</html>
